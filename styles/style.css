@@ -1,0 +1,535 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	margin: 0;
+	padding:0;
+	background-image: url("../images/bg_images/bkg_smoky_cords.jpg");
+	font-family: "Droid Serif", "Merriweather", "Georgia", "Times New Roman";
+}
+figure{
+	margin:0;
+}
+
+.container{
+	margin: 0;
+	padding:0;
+	margin: 0 auto;
+    width: 70%;
+}
+
+header #menu{
+	margin: 8px 0;
+	padding: 8px;
+    text-transform: uppercase;
+    color: #666;
+    font-size: 0.7em;
+    font-weight: bold;
+    background-color: #eaeaea;
+	border: 1px solid #aaaaaa;
+	outline: 0;
+	display:none;
+}
+
+header{
+	border-bottom: 1px solid #e0e0e0;
+}
+header li{
+	list-style-type:none;
+}
+.clear{
+	clear:both;
+}
+
+/*social icons start*/
+#social_icons{
+	float:right;
+}
+#social_icons li{
+	float:left;
+	position:relative;
+	margin-left:2px;
+	padding:5px 10px;
+}
+#social_icons span{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.7em;
+	font-weight: lighter;
+	color: #e1e1e1;
+	padding: 8.5px 5px;
+	position: absolute;
+    right: 28px;
+	top:0;
+	display:none;
+}
+#social_icons a{
+	color:#e1e1e1;
+}
+#social_icons li:hover span{
+	display:block;
+	background:black;
+}
+#social_icons li:hover{
+	background:black;
+}
+#social_icons li{
+	cursor:pointer;
+}
+#social_icons ul{
+	display:inline-block;
+	margin:0;
+}
+#plus_container{
+	margin-top:-5px;
+}
+#plus_container,#plus{
+	cursor:pointer;
+}
+#social_icons #plus_container:hover{
+	background:transparent;
+}
+#plus{
+	background-color: #222;
+	color: #efefef;
+	outline: 0;
+	border: none;
+	padding: 5px 10px;
+}
+/*social icons end*/
+
+
+
+
+
+.logo{
+	float: left;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+
+
+h1{
+	margin: 0;
+	padding:0;
+	font-size: 3em;
+	font-weight: lighter;
+	color: #555;
+	text-shadow: 1px 1px #d5d5d5;
+}
+.losung{
+	text-transform: uppercase;
+	color: #d83f28;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+    font-weight: lighter;
+}
+
+nav{
+	width: 50%;
+	margin-left: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-top: 60px;
+	margin:0;
+	display:flex;
+	justify-content: space-between;
+}
+
+nav ul li a {
+    display: block;
+    color: #555;
+    text-align: left;
+	font-style: italic;
+	font-size: 0.8em;
+    padding: 5px 0;
+    text-decoration: none;
+	
+}
+
+nav ul li a:hover {
+    border-top: 3px solid #d83f28;
+}
+
+nav ul li a.active {
+    border-top: 3px solid #e0e0e0;
+	color: #d83f28;
+}
+
+.slider img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+
+.welcome{
+	width: 75%;
+	margin: 0 auto 70px;
+}
+
+.welcome h2, .tweets h2{
+	display: block;
+    color: #444;
+    text-align: center;
+	font-style: italic;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	font-weight: lighter;
+}
+
+#name{
+	font-weight: bold;
+}
+
+.welcome img{
+	margin: 0 auto;
+    display: block;
+}
+
+section{
+	display: flex;
+	justify-content: space-between;
+}
+
+.sectors{
+	width: 32%;
+	font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+section .sectors figure #alice{
+	max-width: 100%;
+}
+
+.sectors img:hover, .blog img:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.sectors h2, h3{
+	font-size: 1em;
+	font-weight: lighter;
+	color: #555;
+}
+
+.sectors h3{
+	font-style: italic;
+	font-size: 0.75em;
+}
+
+.imgContainer{
+	position:relative;
+}
+.imgContainer .photo{
+	position:absolute;
+	bottom:4px;
+	background:#d4d4d4;
+	padding:3px;
+	display:none;
+}
+.imgContainer:hover .photo{
+	display:block;
+}
+
+.line{
+	width: 30%;
+	height: 50px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e0e0e0;
+	clear:both;
+}
+
+.blogFeatures{
+	margin-top: 50px;
+}
+
+.blog, .features{
+	max-width: 48%;
+	float:left;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.blog .imgContainer{
+	max-width: 25%;
+}
+
+.alice figure, .mobi figure{
+	display: block;
+	float: left;
+}
+
+.blog img{
+	max-width: 80%;
+	display: block;
+}
+
+.capText{
+	padding-left: 25%;
+}
+
+.capText h2{
+	font-size: 1em;
+	font-weight: lighter;
+	margin:0;
+}
+
+.capText p{
+	line-height: 1.8em;
+	font-weight: lighter;
+	margin: 15px 0;
+}
+
+.capText span, p{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.75em;
+	font-weight: lighter;
+	color: #828282;
+}
+.capText .red{
+	text-transform: uppercase;
+	color: #d83f28;
+	font-size: 0.9em;
+    font-weight: bold;
+}	
+
+.capText .bold{
+	text-transform: uppercase;
+	font-size: 0.9em;
+    font-weight: bold;
+}
+
+.fOne, .fTwo{
+	display: block;
+	padding-left: 15px;
+
+}
+
+.fOne ul{
+	list-style-type: none;
+	list-style-image: url(../images/icons/tick.png);
+}
+
+.fTwo ul{
+	list-style-type: none;
+	list-style-image: url(../images/icons/pin.png);
+}
+
+.features ul li{
+    color: #555;
+    text-align: left;
+	font-style: italic;
+	font-size: 0.8em;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.features{
+	display:flex;
+}
+
+.tweets{
+	clear: both;
+}
+
+.caption{
+	text-transform: uppercase;
+	color: #828295;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.7em;
+    font-weight: lighter;
+}
+
+#quotes{
+	font-size: 6em;
+    line-height: 1em;
+    font-style: italic;
+    color: #e0e0e0;
+}
+
+.tweets h2{
+	display: block;
+	float: right;
+	margin: 0 auto;
+	padding-right: 40%;
+	font-size: 1.2em;
+}
+
+footer{
+	width: 100%;
+}
+
+.firstFooter{
+	margin: 0;
+	padding: 0;
+	background-color: #eaeaea;
+	background-image: url("../images/bg_images/stripes_tiny_05.png");
+}
+
+.off{
+	width: 70%;
+	border-top: 3px solid #d83f28;
+	margin: 0 auto;
+	padding: 20px 5px 30px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.agt, .get,.socIcons{
+	margin-right: 30px;
+}
+
+.map{
+	margin-top: 5px;
+}
+
+#map{
+ width:400px;
+ height:146px;
+ background:yellow;
+}
+
+.get{
+	width: 15%;
+}
+
+
+
+.off h2{
+	font-size: 1.2em;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+ol{
+	margin: 0;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	font-weight: lighter;
+	line-height: 2em;
+	color: #444;
+	
+}
+
+address{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	font-weight: lighter;
+	line-height: 2em;
+	color: #444;
+	font-style: normal;
+}
+
+.get button{
+	margin: 8px 0;
+	padding: 8px;
+    text-transform: uppercase;
+    color: #666;
+    font-size: 0.7em;
+    font-weight: bold;
+    background-color: #eaeaea;
+	border: 1px solid #aaaaaa;
+	outline: 0;
+	
+}
+
+.get button:hover {
+	background-color: #dadada;
+	cursor: pointer;
+}
+
+.socIcons{
+	width: 15%;
+	margin: 50px 30px;
+}
+
+.socIcons ul{
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+.socIcons li{
+	position:relative;
+	background-color: white;
+	padding: 3px;
+	display: inline-block;
+    width: 25px;
+	margin-bottom: 5px;
+}
+
+.socIcons span{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.7em;
+	font-weight: lighter;
+	color: #e1e1e1;
+    padding: 6.5px 5px;
+    position: absolute;
+    right: 25px;
+    top: 0;
+    display: none;
+	text-align: center;
+}
+
+.socIcons a{
+	color:#e1e1e1;
+	padding-left: 2px;
+}
+
+.socIcons li:hover span{
+	display:block;
+	background:black;
+}
+.socIcons li:hover{
+	background:black;
+}
+.socIcons li{
+	cursor:pointer;
+}
+
+.lastFooter{
+	height: 40px;
+	background-color: #222;
+}
+
+.copyright{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+    justify-content: space-between;
+}
+
+.copy{
+	color: #efefef;
+	font-style: italic;
+	font-size: 0.75em;
+	padding: 12px 0;
+}
+
+
+
+@media only screen and (max-width: 956px) {
+	.logo{float: none; text-align: center;}
+	header nav{max-width: 100%; margin: 0 auto;}
+	header nav ul{padding: 20px;}
+	.container, .off{width: 85%;}
+}
+
+@media only screen and (max-width: 768px) {
+	.container, .off{width: 60%;}
+	header nav{display: none;}
+	#social_icons{width: 100%; display:flex;}
+	#social_icons ul{width: 100%; padding:0; display: flex;}
+	#social_icons ul li{align-self: flex-start;}
+	#social_icons ul #plus_container{margin-left:50%;}
+	section, .off, .copyright, .features{display: block;}
+	.sectors, .get, .socIcons{width: 100%;}
+	.blog, .features{max-width: 100%;}
+	.socIcons{margin: 0;}
+	header #menu{display: block;}
+	#map{width: 300px;}
+	}
